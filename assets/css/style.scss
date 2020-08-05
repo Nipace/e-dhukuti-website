@@ -1,0 +1,13 @@
+@import "../scss/variable";
+@import "../scss/responsive";
+@import "../scss/mixins";
+
+@import "../scss/elements";
+@import "../scss/header";
+@import "../scss/service";
+@import "../scss/features";
+@import "../scss/footer";
+
+body{
+    font-family: $main_font !important;
+}

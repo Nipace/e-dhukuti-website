@@ -1,0 +1,25 @@
+
+#navigation{
+	background:url("../img/banner/banner.jpg") fixed;
+	background-size: cover;
+	width: 100%;
+    min-height: 100vh;	
+
+    #navigation-blur{
+        background:rgba(192, 187, 187, 0.05);
+        min-height: 50vh;
+    }
+    
+    .navbox {
+        text-transform: uppercase;
+        height:80px;
+       
+    }
+    
+    .main-txt{
+        padding-top: 5rem;
+        color: white;
+        line-height: 2rem;
+    }
+}
+
