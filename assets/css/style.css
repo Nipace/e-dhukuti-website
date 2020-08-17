@@ -1328,8 +1328,8 @@ h6 {
   color: #727272;
 }
 
-.features_area {
-  padding: 77px 0 90px 0;
+.about {
+  background-color: rgba(201, 200, 200, 0.151);
 }
 
 @media (max-width: 767px) {
