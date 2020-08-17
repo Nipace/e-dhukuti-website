@@ -1329,7 +1329,7 @@ h6 {
 }
 
 .about {
-  background-color: rgba(201, 200, 200, 0.151);
+  background-color: rgba(201, 200, 200, 0.329);
 }
 
 @media (max-width: 767px) {
@@ -1455,8 +1455,8 @@ h6 {
 }
 
 .features_area .features_info h3 {
-  font-size: 46px;
-  line-height: 60px;
+  font-size: 35px;
+  line-height: 40px;
   font-weight: 300;
   color: #2C2C2C;
 }
