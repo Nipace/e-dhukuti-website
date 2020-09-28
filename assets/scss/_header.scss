@@ -1,14 +1,29 @@
 
 #navigation{
-	background:url("../img/banner/banner213.png") ;
-	background-size: cover;
-	width: 100%;
-    min-height: 100vh;	
-
-    #navigation-blur{
-        background:rgba(192, 187, 187, 0.05);
-        min-height: 50vh;
+    left: 0;
+    right: 0;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+    position: absolute;
+    // padding-top: 28px;
+    @media #{$mobile_device} {
+        padding-top: 0;
     }
+    @media #{$tablet_device} {
+        padding-top: 0;
+    }
+    @media #{$mobile_device}{
+        .navbar-nav{
+            background:white;
+            
+            .nav-link{
+                color: black;
+            }
+        }
+    }
+    
+
     
     .navbox {
         text-transform: uppercase;
@@ -22,4 +37,5 @@
         line-height: 2rem;
     }
 }
+
 

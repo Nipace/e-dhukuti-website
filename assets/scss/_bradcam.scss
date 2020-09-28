@@ -1,0 +1,28 @@
+.bradcam_bg_1{
+    background-image: url(../img/banner/bandi.png);
+}
+
+.bradcam_area{
+    
+    background-size: cover;
+    background-position: bottom;
+    padding: 180px 0;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    
+    @media #{$mobile_device} {
+        padding: 120px 0;
+    }
+    h3{
+        font-size: 60px;
+        color: #fff;
+        font-weight: 300;
+        margin-bottom: 0;
+        text-transform: capitalize;
+        @media #{$mobile_device} {
+            font-size: 30px;
+        }
+    }
+  
+}

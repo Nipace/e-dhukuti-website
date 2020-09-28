@@ -7,7 +7,20 @@
 @import "../scss/service";
 @import "../scss/features";
 @import "../scss/footer";
+@import "../scss/contact";
+@import "../scss/slider";
+@import "../scss/bradcam";
+@import "../scss/blog";
+@import "../scss/faq";
+
+
 
 body{
     font-family: $main_font !important;
+}
+.theme-color{
+    color: #036562;
+}
+.secondary-color{
+    color:#DAAD68;
 }
